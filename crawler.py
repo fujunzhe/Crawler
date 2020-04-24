@@ -115,9 +115,6 @@ def saveXsl(datalist, savepath):
 
     workbook.save(savepath)
 
-## 3.2 保存到数据库
-# 挖个坑，以后填
-
 def main():
     baseurl = "https://movie.douban.com/top250?start="
     savepath = "/Users/fjz/Desktop/cralwer.xls"
